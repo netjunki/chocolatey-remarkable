@@ -9,11 +9,12 @@
     <authors>reMarkable, Inc.</authors>
     <projectUrl>https://downloads.remarkable.com</projectUrl>
     <iconUrl>https://rawcdn.githack.com/netjunki/chocolatey-remarkable/04194b6481b461e227b7297385a4a6a7ad0a84d9/rm_icon.png</iconUrl>
-    <copyright>2023</copyright>
+    <copyright>2023 Remarkable AS</copyright>
     <docsUrl>https://support.remarkable.com/s/</docsUrl>
     <tags>remarkable ereader notetaking</tags>
     <summary>reMarkable inport/export app for Windows</summary>
     <description>App for managing and accessing the contents of your reMarkable tablet</description>
+    <licenseUrl>https://support.remarkable.com/s/article/reMarkable-End-User-License-Agreement</licenseUrl>
     <releaseNotes>https://support.remarkable.com/s/article/Software-release-3-3</releaseNotes>
   </metadata>
   <files>
