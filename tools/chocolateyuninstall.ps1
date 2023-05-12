@@ -3,7 +3,7 @@ $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   softwareName  = 'remarkable*'
   fileType      = 'EXE'
-  silentArgs    = "rm --al --da --nf -c com.remarkable.xochitl"
+  silentArgs    = "purge -c"
   validExitCodes= @(0, 3010, 1605, 1614, 1641)
 }
 
