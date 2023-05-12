@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>remarkable</id>
-    <version>3.3.0.732</version>
+    <version>3.1.1.722</version>
     <packageSourceUrl>https://github.com/netjunki/chocolatey-remarkable</packageSourceUrl>
     <owners>netjunki</owners>
     <title>reMarkable (Install)</title>

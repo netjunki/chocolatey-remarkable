@@ -1,8 +1,8 @@
 ﻿$ErrorActionPreference = 'Stop'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
-$url        = 'https://downloads.remarkable.com/desktop/production/win/reMarkable-3.3.0.732-win32.exe'
-$url64      = 'https://downloads.remarkable.com/desktop/production/win/reMarkable-3.3.0.732-win32.exe'
+$url        = 'https://downloads.remarkable.com/desktop/production/win/reMarkable-3.1.1.722-win32.exe'
+$url64      = 'https://downloads.remarkable.com/desktop/production/win/reMarkable-3.1.1.722-win32.exe'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
