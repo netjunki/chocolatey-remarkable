@@ -10,7 +10,7 @@ $packageArgs = @{
 
   softwareName  = 'remarkable*'
 
-  checksum      = 'F66ACE9DED878A7A3F000C59A308FAFDCC2AC59AC92C4A6E32A2845EA20B6484'
+  checksum      = '4B5117CAB7FC92551BB0D420A3AC19F379AA4CF469E182A1A46EB23D2F3D974C'
   checksumType  = 'sha256'
 
   silentArgs    = "in --al --da --nf -c com.remarkable.xochitl"
