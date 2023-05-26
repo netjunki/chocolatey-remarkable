@@ -1,12 +1,10 @@
 ﻿$ErrorActionPreference = 'Stop'
-$toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
 $ver        = $env:ChocolateyPackageVersion
 $url        = "https://downloads.remarkable.com/desktop/production/win/reMarkable-$ver-win32.exe"
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
-  unzipLocation = $toolsDir
   fileType      = 'exe'
   url           = $url
 
