@@ -2,9 +2,9 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>remarkable</id>
-    <version>3.3.0.732</version>
-    <packageSourceUrl>https://github.com/netjunki/chocolatey-remarkable</packageSourceUrl>
-    <owners>netjunki</owners>
+    <version>3.12.1.873</version>
+    <packageSourceUrl>https://github.com/MrGirKC/chocolatey-remarkable</packageSourceUrl>
+    <owners>MrGirKC</owners>
     <title>reMarkable (Install)</title>
     <authors>reMarkable, Inc.</authors>
     <projectUrl>https://downloads.remarkable.com</projectUrl>

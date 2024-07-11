@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop'
 
 $ver        = $env:ChocolateyPackageVersion
-$url        = "https://downloads.remarkable.com/desktop/production/win/reMarkable-$ver-win32.exe"
+$url        = "https://downloads.remarkable.com/desktop/production/win/reMarkable-$ver-win64.exe"
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -10,11 +10,11 @@ $packageArgs = @{
 
   softwareName  = 'remarkable*'
 
-  checksum      = '4B5117CAB7FC92551BB0D420A3AC19F379AA4CF469E182A1A46EB23D2F3D974C'
+  checksum      = '62887C8F66CEA74CE6723B4796BF77493DD7FF568AFF5698080F119A153B1D25'
   checksumType  = 'sha256'
 
-  silentArgs    = "in --al --da --nf -c com.remarkable.xochitl"
+  silentArgs    = "--al --da --nf -c in com.remarkable.xochitl"
   validExitCodes= @(0, 3010, 1641)
 }
-
+Remove-Item "C:\Program Files\reMarkable" -Force -Recurse
 Install-ChocolateyPackage @packageArgs
