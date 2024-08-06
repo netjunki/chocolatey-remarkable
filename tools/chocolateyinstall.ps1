@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop'
 
 $ver        = $env:ChocolateyPackageVersion
-$url        = "https://downloads.remarkable.com/desktop/production/win/reMarkable-$ver-win64.exe"
+$url        = "https://downloads.remarkable.com/desktop/production/win/reMarkable-$ver-win64-dOsiFEdigq.exe"
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -10,7 +10,7 @@ $packageArgs = @{
 
   softwareName  = 'remarkable*'
 
-  checksum      = '62887C8F66CEA74CE6723B4796BF77493DD7FF568AFF5698080F119A153B1D25'
+  checksum      = '36569B14326C64D6A057D0E4D157111E9FBEB41A351509AE104EA887E56C8738'
   checksumType  = 'sha256'
 
   silentArgs    = "--al --da --nf -c in com.remarkable.xochitl"
