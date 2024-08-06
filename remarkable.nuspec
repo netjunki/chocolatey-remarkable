@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>remarkable</id>
-    <version>3.12.1.873</version>
+    <version>3.13.0.880</version>
     <packageSourceUrl>https://github.com/MrGirKC/chocolatey-remarkable</packageSourceUrl>
     <owners>MrGirKC</owners>
     <title>reMarkable (Install)</title>
@@ -15,7 +15,7 @@
     <summary>reMarkable import/export app for Windows</summary>
     <description>App for managing and accessing the contents of your reMarkable tablet</description>
     <licenseUrl>https://support.remarkable.com/s/article/reMarkable-End-User-License-Agreement</licenseUrl>
-    <releaseNotes>https://support.remarkable.com/s/article/Software-release-3-3</releaseNotes>
+    <releaseNotes>https://support.remarkable.com/s/article/Software-release-3-13</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
